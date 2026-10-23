@@ -1,0 +1,5 @@
+This is the document for the Bookscraping project, first web scrapping is you requesting the structure of a website 
+  then read it in a programming way to find pattern in traffic. 
+
+  We are using hhtps://books.tosscrape.com
+  since it's a free web for webscrapping and doing it to other website might get you into trouble
