@@ -5,7 +5,7 @@ url = "https://books.toscrape.com"
 response = requests.get(url)
 
 print(response.status_code)
-# print(response.text)
+print(response.text)
 
 soup = BeautifulSoup(response.text, "html.parser")
 books = soup.find_all("article", class_="product_pod")
