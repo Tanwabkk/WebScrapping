@@ -3,3 +3,6 @@ This is the document for the Bookscraping project, first web scrapping is you re
 
   We are using hhtps://books.tosscrape.com
   since it's a free web for webscrapping and doing it to other website might get you into trouble
+
+There is a lot of reason why people do webscrapping, for business purposes such as collecting data from website or other company
+or personal gain like finding information about target they are about to hack. 
