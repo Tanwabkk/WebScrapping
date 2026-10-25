@@ -3,6 +3,9 @@ const cheerio = require('cheerio'); //download cheerio
 
 axios.get('https://en.wikipedia.org/wiki/web_scraping')
   .then(response => {
+    const $ = cheerio.load(response.data);
+    const title = $('h1').text();
+    console.log('Page Title: ${title}');
     console.log(response.data); 
   })
   .catch(error => {
