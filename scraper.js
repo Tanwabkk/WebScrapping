@@ -7,6 +7,16 @@ axios.get('https://en.wikipedia.org/wiki/web_scraping')
     const title = $('h1').text();
     console.log('Page Title: ${title}');
     console.log(response.data); 
+
+    $('a').each((index, element) => {
+      const link = $(element).attr('href');
+      const linkText = $(element).text().trim();
+      if (link && link.startsWith('/wiki/')) {
+          console.log(`${linkText}: https://en.wikipedia.org${link}`);
+      } 
+    });
+
+    
   })
   .catch(error => {
     console.error('Error fetching the page:', error);
