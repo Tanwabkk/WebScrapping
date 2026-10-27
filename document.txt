@@ -6,3 +6,6 @@ This is the document for the Bookscraping project, first web scrapping is you re
 
 There is a lot of reason why people do webscrapping, for business purposes such as collecting data from website or other company
 or personal gain like finding information about target they are about to hack. 
+
+
+If i'm certain you can use wikipedia for web_scraping too
