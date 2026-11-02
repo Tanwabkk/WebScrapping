@@ -14,3 +14,4 @@ for book in books :
     title = book.h3.a["title"]
     price = book.find("p", class_="price_color").text
     print(f"{title} - {price}")
+## this is gonna print the books in the web including the title - price
